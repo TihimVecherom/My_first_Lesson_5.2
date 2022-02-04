@@ -1,0 +1,133 @@
+/* Обнуление */
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+
+body{
+    box-sizing: border-box;
+    width: 1920px;
+    height: 3807px;
+    font-family: Lato;
+    font-style: normal;
+}
+
+.wrapper{
+    overflow: hidden;
+    width: 818px;
+    height: 1594px;
+    margin: 152px 757px 2061px 345px;
+}
+
+
+h1 {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+}
+
+p,ul,li{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.block_header {
+    padding-top:38px;
+    margin-bottom: 47px;
+    width: 810px;
+    height: 210px;
+}
+
+.first_paragraf {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+}
+
+.Picture_All_box {
+    padding-left: 8px;
+    margin-bottom: 53px;
+    font-size: 360px;
+}
+
+.Picture_All{
+    border-radius: 4px;
+}
+
+.block_Vilputate {
+    width: 810px;
+    height: 90px;
+    margin-bottom: 24px;
+}
+
+.Vilputate_paragraf {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.block_text_Vilputate {
+    width: 810px;
+    height: 182px;
+    margin-bottom: 48px;
+}
+
+.text_Vilputate ~ p {
+    margin-top: 24px;
+}
+
+.block_Lorem {
+    width: 810px;
+    height: 120px;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 48px;
+}
+
+.Lorem_paragraf {
+    width: 752px;
+    height: 120px;
+    margin-left: 58px;
+}
+
+.block_ul{
+    text-decoration: none;
+    width: 810px;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.name_ul{
+    width: 810px;
+    height: 52px;
+    margin-bottom: 24px;
+}
+
+.list_ul{
+    width: 600px;
+    height: 116px;
+}
+
+li{
+    margin: 3px 0 0 32px;
+    width: 600px;
+    height: 26px;
+}
+
+.block_footer {
+    width: 810px;
+    height: 104px;  
+    margin-bottom: 60px;
+}
+.text_footer {
+
+}
